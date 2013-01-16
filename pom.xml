@@ -32,7 +32,7 @@
 
 	<groupId>com.bgzin</groupId>
 	<artifactId>swing-text-console</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.1</version>
 	<packaging>jar</packaging>
 
 	<name>swing-text-console</name>
