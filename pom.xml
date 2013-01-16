@@ -32,7 +32,7 @@
 
 	<groupId>com.bgzin</groupId>
 	<artifactId>swing-text-console</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>swing-text-console</name>
@@ -42,6 +42,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -50,4 +52,25 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+
+
+	<build>
+		<plugins>
+
+			<!--
+			 | Java compiler setup
+			-->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.5.1</version>
+				<configuration>
+					<source>1.5</source>
+					<target>1.5</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>
