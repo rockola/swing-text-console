@@ -24,7 +24,6 @@ package com.bgzin.console;
 
 import java.awt.Color;
 import java.awt.event.KeyEvent;
-
 import javax.swing.text.AttributeSet;
 import javax.swing.text.SimpleAttributeSet;
 import javax.swing.text.StyleConstants;

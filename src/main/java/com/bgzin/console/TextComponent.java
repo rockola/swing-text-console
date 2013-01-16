@@ -35,7 +35,6 @@ import java.awt.event.MouseEvent;
 import java.awt.font.FontRenderContext;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Rectangle2D;
-
 import javax.swing.JComponent;
 
 public class TextComponent extends JComponent {

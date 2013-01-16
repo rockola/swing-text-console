@@ -22,11 +22,8 @@
  */
 package com.bgzin.console;
 
-import com.bgzin.console.ConsoleAPI;
-import com.bgzin.console.TextConsole;
 import java.awt.BorderLayout;
 import java.awt.Color;
-
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
