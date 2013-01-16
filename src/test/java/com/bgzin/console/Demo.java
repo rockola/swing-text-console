@@ -20,10 +20,10 @@
  * You should have received a copy of the GNU Lesser General Public  License
  * along with this library. If not, see <http://www.gnu.org/licenses/>.
  */
-package com.bgzin.console.swing.console;
+package com.bgzin.console;
 
-import com.bgzin.swing.console.ConsoleAPI;
-import com.bgzin.swing.console.TextConsole;
+import com.bgzin.console.ConsoleAPI;
+import com.bgzin.console.TextConsole;
 import java.awt.BorderLayout;
 import java.awt.Color;
 

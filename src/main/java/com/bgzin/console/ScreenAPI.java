@@ -20,29 +20,27 @@
  * You should have received a copy of the GNU Lesser General Public  License
  * along with this library. If not, see <http://www.gnu.org/licenses/>.
  */
-package com.bgzin.swing.console;
+package com.bgzin.console;
 
 import java.awt.Color;
 
-public interface ConsoleAPI {
-	public void setCharAt(int line, int pos, char chr, Color foregroundColor, Color backgroundColor);
-	public void setCharAt(int line, int pos, char chr, Color foregroundColor);
-	public void setCharAt(int line, int pos, char chr);
+public interface ScreenAPI {	
+	public void setForegroundColor(Color foregroundColor);
+	public void setBackgroundColor(Color backgroundColor);
 	
-	public char getCharAt(int line, int pos);
-
-	public void setStringAt(int line, int pos, String str, Color foregroundColor, Color backgroundColor);
-	public void setStringAt(int line, int pos, String str, Color foregroundColor);
-	public void setStringAt(int line, int pos, String str);
+	public Color getForegroundColor();
+	public Color getBackgroundColor();
 	
-	public void setForegroundAt(int line, int pos, Color color);
-	public void setBackgroundAt(int line, int pos, Color color);
-
-	public Color getForegroundAt(int line, int pos);
-	public Color getBackgroundAt(int line, int pos);
-
+	public int getMaxLines();
+	public int getMaxChars();
+	
+	public char[][] getCharacters();
+	
+	public Color[][] getBackgroundColors();
+	public Color[][] getForegroundColors();
+		
 	public void clear();
 	public void refresh();
-
-	public ConsoleAPI getConsoleAPI();
+	
+	public ScreenAPI getScreenAPI();
 }
