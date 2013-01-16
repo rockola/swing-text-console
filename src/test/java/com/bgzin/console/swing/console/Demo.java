@@ -1,5 +1,7 @@
-package com.bgzin.swing.console;
+package com.bgzin.console.swing.console;
 
+import com.bgzin.swing.console.ConsoleAPI;
+import com.bgzin.swing.console.TextConsole;
 import java.awt.BorderLayout;
 import java.awt.Color;
 

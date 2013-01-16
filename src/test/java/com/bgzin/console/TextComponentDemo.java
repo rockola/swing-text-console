@@ -1,5 +1,6 @@
 package com.bgzin.console;
 
+import com.bgzin.console.TextComponent;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
