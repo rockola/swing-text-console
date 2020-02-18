@@ -77,6 +77,21 @@
           </execution>
 	</executions>
       </plugin>
+      <!-- run -->
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>1.2.1</version>
+        <configuration>
+	  <executable>java</executable>
+	  <arguments>
+	    <argument>-classpath</argument>
+	    <classpath />
+            <!-- <argument>com.bgzin.console.TextComponentDemo</argument> -->
+            <argument>com.bgzin.console.Demo</argument>
+	  </arguments>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 </project>
